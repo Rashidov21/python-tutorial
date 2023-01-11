@@ -78,11 +78,16 @@
 # # b = c  # 10
 # print(a)  # 20
 # print(b)  # 10
-str_num = "10"
-print(type(str_num))  # <class 'str'>
-print(int(str_num) + 5)
-# print(str_num * 5)
+# str_num = "10"
+# print(type(str_num))  # <class 'str'>
+# print(int(str_num) + 5)
+# # print(str_num * 5)
+#
+# user_input = int(input("Son kirit :"))
+# user_input = str(input("Son kirit :"))
+# user_input = bool(input("Son kirit :"))
 
-user_input = int(input("Son kirit :"))
-user_input = str(input("Son kirit :"))
-user_input = bool(input("Son kirit :"))
+# x = 0
+# del x
+#
+# print(x)
