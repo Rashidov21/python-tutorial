@@ -26,3 +26,15 @@
 # task  3
 # user uchta odam familyasini kiritadi siz kiritlgan familyalarni tekshirish orqali
 # uchalasidan nechtasi erkak nechtasi ayol ekanini hisoblang
+
+# Ternary 
+x = 10
+# print("yes") if x > 5 else print('no')
+# print ("Yes" if 10 % 2 == 0 else "No")
+# if x > 20:
+#     l = 0
+#     print("yes")
+
+# else:
+#     print("no")
+# print(l)
