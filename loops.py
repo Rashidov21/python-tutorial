@@ -93,12 +93,4 @@
 # task 3
 # user 2 xonalikdan katta butun son kiritadi ulardan faqat 0 bilan tugaganlarini summasini hisoblang
 
-count = 0
-while True:
-    num = input("Write.. \n :")
-    if num == "stop":
-        break
-    if num.isdigit():
-        count += int(num) if len(num) >= 2 and int(num) % 10 == 0 else 0    
-       
-print(count)
+
