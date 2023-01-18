@@ -49,26 +49,12 @@ print(n1.is_integer()) # False
 # user ikita son kiritadi birinchi kiritgan soni bu hosil qilinishi kerak bolgan parollar soni 
 # ikkinchi kiritgan soni bu parollarda belgilar ni maksimal soni 
 # user sonlarni kiritishi bilan u hohlagancha parollarni hosil qilib bering 
-# letter_low = "qwetyuiopdfghjknbfghbnm"
-# letter_up = letter_low.upper()
-# symblos = "!@#$%^&*()"
 
-# chars = letter_low + letter_up + symblos
-
-# pass_count = int(input("Count ? \n"))
-# letters_count = int(input("Letters count ? \n"))
-
-# if letters_count >= 6:
-#     for i in range(pass_count):
-#         password = ""
-#         for l in range(letters_count):
-#             password += random.choice(chars)
-#         print(password)
 
 # task 2 
 # "yangi o'zbekiston" so'zida "svet" so'zidagi belgilar necha marta duch kelishi mumkinligini 
 # hisoblovchi dastur tuzing
-# print(len("".join([x for i in "svet" for x in "yangi o'zbekiston" if i == x])))
+
 
 # task 3
 # 100 marta takrorlanadigan kodda nechi marta foydalanuvchi kiritgan son duch kelganini toping; (kod 100 marta takrorlanadi user son kiritgan boladi  0 <  userNum < 100 ; random shaklida olingan takrorklanishdagi son user ni soniga togri kelsa shart bajarilgan demak; nechi marta userni soni togri kelganini chiqaring)
