@@ -93,3 +93,40 @@
 
 # task 1 
 # Foydalanuvchidan matn qabul qiling , unda "gaz" , "svet", "yo'q" kabi so'zlar ishtirok etganmi yoki yo'qmi aniqlang va ular sonini har birini alohida hisoblang boring so'zlar register turi yoki boshqa qoshimchalar bilan kelishi mumkin bularni ham inobatga oling
+
+# s = "12.0"
+# print("11ss".isalnum()) # isalnum - is alphabet numeric
+# print("abc".isalpha()) # is alphabet
+# print(s.isdigit()) # False
+# print("Aa".isupper()) # False
+# print("aa".islower()) # True
+# print("Aa".istitle()) # True
+
+# task 2 quyidagi shartlarni tekshirib parol togri yoki notogriligini aniqlaydigan
+# dastur tuzing
+# password:
+#     - minimum 6 ta belgi 
+#     - kamida bitta katta harf 
+#     - kamida bitta maxsus belgi (/,\,@,/,_,-)
+#     - kamida 1 ta butun son  
+
+# password = input()
+
+# upper_letter = False
+# digit = False 
+# symbol = False 
+
+# if len(password) >= 6:
+#     for letter in password:
+#         if letter.isdigit():
+#             digit = True
+#         if letter.isupper():
+#             upper_letter = True
+#         if letter in "/\\@-_":
+#             symbol = True
+#     if upper_letter and digit and symbol:
+#         print("Password is True")
+#     else:
+#         print("Password wrong")
+# else:
+#     print("Password wrong")
