@@ -136,3 +136,50 @@
 # b = [7,1,5,9,3]
 
 # c = [7,2,5,9,6,4]
+
+
+# from functools import reduce
+
+# arr = list(range(6))
+
+# def func(x, y):
+#     # print(f"x={x}\ny={y}")
+#     return x + y
+
+# r = reduce(func, arr)
+# print(r)
+
+# l = [1,2,3,4]
+# print(reduce(func , l))
+
+# a1 = [1,2,3]
+# b1 = [4,5,6]
+# a1.extend(b1)
+# print(a1) # [1, 2, 3, 4, 5, 6]
+
+# arr = [1,2]
+# print(2 in arr )# True
+# print(6 in arr )# False
+# print(6 not in arr )# True
+# arr.insert(4, 4)
+# print(arr) # [1, 2, 4]
+# print(len(arr))
+
+# arr[:0] = [-2, -1, 0]
+# print(arr) # [-2, -1, 0, 1, 2]
+
+# import random
+# arr = [random.randint(1,30) for i in range(10) ]
+# # arr.sort(reverse=True)
+# print(sorted(arr, reverse=True)) # [30, 29, 25, 23, 21, 18, 15, 14, 10, 3]
+# for i in sorted(arr, reverse=True):
+#     print(i) 
+    
+# print(sorted("abGdeSfH", key=str.upper)) # ['a', 'b', 'd', 'e', 'f', 'G', 'H', 'S']
+# print(sorted("abGdeSfH", key=str.upper, reverse=True)) # ['S', 'H', 'G', 'f', 'e', 'd', 'b', 'a']
+
+# import random
+# arr = list(range(10,100,10))
+# print(arr)
+# arr = random.sample(range(100), 10) # [35, 64, 72, 79, 76, 59, 49, 39, 8, 67]
+# print(arr)
