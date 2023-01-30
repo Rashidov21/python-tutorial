@@ -35,3 +35,14 @@
 #  Agar Tohir soat 22:00 da uhlashga yotsa demak uyg’onganida soat 07:00 bo’lishini ko’rsatishingiz kerak.
 # Kirish : ‘22:00’
 # Chiqish : ‘07:00’
+
+# task 7 
+
+# 12 ta ishchi ism familyasini Faker orqali hosil qiling
+# har bir ishchi 12 oy davomida (1 yil) har bir oyda ma'lum bir miqdorda oylik maosh olgan
+# oylik maoshlar stabil oylik maosh summasidan ishchini ishlashiga qarab ayrim oylarda +5% ko'proq , ayrim oylarda -5% kamroq bo'lishi mumkin. Siz ushbu malumotlardan foydalanib hisoblashingiz kerak. 
+# 1-Har bir ishchini 12 oyda olgan umumiy ish haqi summasi 
+# 2- Har bir ishchini kvartallar boyicha ish haqlarini 
+# 3- yil davomida eng ko'p maosh olgan ishchini 
+# 4- yil davomida eng kam moash olgan ishchini 
+# 5- eng kop maosh olgan ishchini eng kam olgan  bilan oyliklari o'rtasidagi farqni 
