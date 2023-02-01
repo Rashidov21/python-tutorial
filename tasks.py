@@ -46,3 +46,7 @@
 # 3- yil davomida eng ko'p maosh olgan ishchini 
 # 4- yil davomida eng kam moash olgan ishchini 
 # 5- eng kop maosh olgan ishchini eng kam olgan  bilan oyliklari o'rtasidagi farqni 
+
+# task 8 
+# Istalgancha sonlarni qabul qilib ularni yigindisini qaytaruvchi function yozing 
+# sonlar butun yoki qoldiqli bo'lishi mumkin , lekin natija butun son bo'ladi
