@@ -141,3 +141,50 @@
 #         return 1 
 #     else:
 #         return n * factor(n - 1) 
+
+
+# x = 10
+# if x == "10":
+#     print(x)
+#     print(y) # name error
+#     if x.is_digit():
+#         y = 0
+#         raise TypeError("Type is not supported")
+
+# g_var = "global var"
+
+# def main(num):
+#     print(g_var)
+#     # local variable
+#     global x
+#     x = 100
+#     if num % 2 == 0:
+#         print(num + 2)
+#         print(g_var)
+#         print(x)
+# # print(x) # NameError: name 'x' is not defined
+# print(main(2))
+# print(x)   # 100
+
+# name = 10
+
+# def outer(string):
+#     def inner(s):
+#         return s.split(",")
+#     return inner(string)
+
+# print(outer("python, javascripr,cpp")) #['python', ' javascripr', 'cpp']
+
+# import math
+
+# def func (a:int, b:int) -> int:
+#     return a + b
+
+# def func (a:2+10, b:0) -> None:
+#     return a + b
+
+# print(func.__annotations__) #{'a': 12, 'b': 0, 'return': <class 'int'>}
+
+
+def check_version():
+    print("version = 1.1")

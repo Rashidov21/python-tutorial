@@ -68,3 +68,5 @@
 
 # print(not 0)  # True
 # print(not " ")  # False
+
+get_user_as_simple_user = "simple user"
