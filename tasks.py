@@ -50,3 +50,31 @@
 # task 8 
 # Istalgancha sonlarni qabul qilib ularni yigindisini qaytaruvchi function yozing 
 # sonlar butun yoki qoldiqli bo'lishi mumkin , lekin natija butun son bo'ladi
+
+
+# task 19 
+
+# Dasturga changi sportchilarini natijalari ketma ket kelib tushadi 
+# dastur ularni tekshirib eng yaxshilarini royhat boshiga yomonlarini pastga qarab qo'shib  #kelishi kerak , natijalar , sarflagan vaqti sekunlarda va bosib otgan masofasi km da 
+# kam vaqt sarflab kop km bosgan sportchilar birinchiga chiqariladi
+# input : 'John' , 4.5 , '3:30'
+p = [
+    ('John' , 4.9 , '3:10'), # 1
+    ('Mike' , 4.1 , '3:27'), # 3
+    ('David' , 4.7 , '3:30'), # 2
+]
+
+p.sort(key=lambda x : x[1], reverse=True)
+
+for player in p:
+    p.sort(key=lambda x:int(player[2].split(":")[0]))
+    p.sort(key=lambda x:int(player[2].split(":")[1]))
+    
+print(p)
+
+# task 20
+# Sinfda imtihondan song oquvchilarni qayta partalarga joylashtirish 
+# bo'lyapti, sinf rahbari qizlardan imtihon natijasiga kora eng yuqorilarini bollardan eng pastlari bilan birga joylashtirmoqchi , dastur vazifasi oquvchilar natijalarini saralab qizlarni eng yaxshi natijalilarini bollarni eng yomonlari bilan bitta ro'yhatga keltirish 
+
+# input : "John" ,"male", 99 
+# output : [("famale", "Sara", 89), ("male", "John", 36)]
