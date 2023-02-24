@@ -1,28 +1,43 @@
 
-
+import requests
 from aiogram import Bot, Dispatcher, executor, types
 
-API_TOKEN = ''
+API_TOKEN = 'your token'
 
 # Initialize bot and dispatcher
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
 
-@dp.message_handler(commands=['start', 'help'])
+def get_movie_poster(query:str):
+    url = "rapid url"
+
+    querystring = {"q":query}
+
+    headers = {
+        "X-RapidAPI-Key": "your key",
+        "X-RapidAPI-Host": "imdb8.p.rapidapi.com"
+    }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+    data = response.json()
+    url = data["d"][0]["i"]["imageUrl"]
+    return url
+
+@dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
     """
-    await message.reply("Hi!\nI'm EchoBot!\nPowered by aiogram.")
+    await message.reply("Hi!\nI'm MoviePosterBot!\nPowered by me.")
 
 
 
 @dp.message_handler()
 async def echo(message: types.Message):
     # print(message.from_user)
-    print(message.from_user.id)
-    await message.answer(message.text)
+    url = get_movie_poster(message.text)
+    await message.answer(url)
 
 
 if __name__ == '__main__':
