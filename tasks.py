@@ -71,3 +71,5 @@
 # Boksda 4 raund uchun 4 ta xakam bokschilarga ball berishadi 
 # har bir bokschi uchun raund davomida N ball berish mumkin (0 < N < 40)
 # hakamlarni har bir raund uchun bergan ballaridan eng kami va eng yuqorisini , har bir bokschi uchun esa  4 ta hakamning raund uchun o'rta ballini chiqaring
+
+# task 22 
