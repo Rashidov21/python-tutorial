@@ -73,3 +73,11 @@
 # hakamlarni har bir raund uchun bergan ballaridan eng kami va eng yuqorisini , har bir bokschi uchun esa  4 ta hakamning raund uchun o'rta ballini chiqaring
 
 # task 22 
+# Guruhda  10 ta o'quvchi bor va ular imtihonda 3 hil yonalishda imtihon topshirishadi
+# har bir yonalishda max 33 ball olish mumkin , imthion oxirida 3 hil yonalish boyicha 
+# ortacha balli yuqori bolgan oquvchilar imtihondan o'tishadi , o'tish balli max balning 75 % ga teng , siz dastur orqali ortacha balli max ballning 75% dan kam   ball toplagan oquvchilarni guruhdan chiqarishingiz kerak
+
+# task 23
+# students.db da sinfdagi 30 ta oquvchini 4 ta chorakda olgan baholari saqlanadi siz 4 chorakdagi ballarni olib oquvchi uchun umumiy ball chiqarishingiz va qizlardan eng yuqori baho olganlarni va bollardan eng yuqori baho olganlarini saralab chiqarishingiz kerak
+
+# name gender 1-chorak 2-... 
