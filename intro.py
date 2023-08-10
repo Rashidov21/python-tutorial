@@ -1,0 +1,3 @@
+# Dasturlash tili -  
+# Interpretator - 
+# Kompilyator - 
