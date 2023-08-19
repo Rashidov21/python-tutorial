@@ -132,10 +132,10 @@
 
 
 # task 24
-x=int(input('X>>'))
-f=0
-if x>0:
-    f=2*sin(x)
-else:
-    f=x-6
-print(f)
+# x=int(input('X>>'))
+# f=0
+# if x>0:
+#     f=2*sin(x)
+# else:
+#     f=x-6
+# print(f)
