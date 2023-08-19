@@ -44,8 +44,22 @@
 #         break # sikl to'xtaydi
 #     print(i)
 
-k = 5
-n = int(input("N ?"))
-if n > 0:
-    for i in range(n):
-        print(k)
+# k = 5
+# n = int(input("N ?"))
+# if n > 0:
+#     for i in range(n):
+#         print(k)
+
+# task 10
+# n = 7
+# s = 1
+# for i in range(2,n+1):
+#     s += 1 / i 
+# print(s) # 2.5928571428571425
+
+# task 11
+# n = 5
+# s = n ** 2
+# for i in range(2 * n**2):
+#     s += (n+1)**2
+# print(s)
