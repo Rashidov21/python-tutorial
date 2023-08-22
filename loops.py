@@ -63,3 +63,25 @@
 # for i in range(2 * n**2):
 #     s += (n+1)**2
 # print(s)
+
+
+# task 1
+# berilgan str dan raqamlar , harflar va maxsus belgilarni alohida qilib ekranga saralab chiqaruvchi dastur tuzing
+# input : a = "1a$2o&"
+# output : "ao" , "12", "$&"
+
+# nums = ""
+# alpha = ""
+# symbols = ""
+
+# input_data = "1a$2o&"
+
+# for i in input_data:
+#     if i in "asdfghjklqwertyuiopzxcvbnm":
+#         alpha += i 
+#     if i in "0123456789":
+#         nums += i 
+#     if i in "!@#$%^&*()<>?{}[]":
+#         symbols += i 
+# print(nums,alpha,symbols) # 12 ao $&
+       
