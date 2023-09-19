@@ -145,3 +145,70 @@ the circulation. - Moby Dick'''
 
 
 # if type(i) == bool:
+# import random 
+
+# arr = [1,2,4,6,4,9,5,1,8,7]
+# print(random.choice(arr)) # tasodify 1 ta element
+# random.shuffle(arr) # elementlarni joylashuvini aralashtirish
+# print(arr) 
+# arr_2 = random.sample(arr, 3) # tasodify 3 ta elementdan iborat massiv hosil qiladi
+# print(arr_2) 
+
+# arr = [5,6,4,982,3,54,498,6,2,26,4,33]
+# # arr.sort()
+# # print(arr) # [2, 3, 4, 4, 5, 6, 6, 26, 33, 54, 498, 982]
+# arr.sort(reverse=True)
+# print(arr) # [982, 498, 54, 33, 26, 6, 6, 5, 4, 4, 3, 2]
+
+# sorted() - berilgan ketma ketlikni saralaydi
+# for i in sorted([2,5,4,9,6,3],reverse=True):
+#     print(i, end="") # 965432
+
+# a = list(range(11))
+
+
+# tuple - ozgarmas elementlar ketma-ketligi
+# t = tuple() 
+# t = ()
+# t = (1,2,3)
+# t[0] = 0 # TypeError: 'tuple' object does not support item assignment
+
+# for i in tuple("tuple"):
+#     print(i)
+
+# set - unikal elementlar to'plami 
+# s = {}
+# s = set()
+# s = set("assalom")
+# print(s) # {'s', 'o', 'l', 'a', 'm'}
+
+# united_set = set("pyt").union({'h','o','n'}) 
+# print(united_set) # birlashgan 2 ta set
+
+# united_set.update("1")
+# print(united_set)
+
+# set_a = set("python123")
+# set_b = set("python")
+# print(set_a.difference(set_b)) # ikita set ni farqini korsatadi
+
+
+# dict - lug'at , elementlariga indeks orqali emas balki kalit so'z orqali murojaat qilinadigan elementlar to'plami
+
+d_1 = dict(a=10,b=20)
+
+print(d_1.keys()) # dict keys dict_keys(['a', 'b'])
+print(d_1.items()) # dict items tuple object dict_items([('a', 10), ('b', 20)])
+print(d_1.values()) # dict values  dict_values([10, 20])
+ 
+print(d_1["a"]) # 10
+print(d_1["b"]) # 20
+print(d_1["a"] + d_1["b"]) # 30
+
+# print(d_1["some_key"]) # KeyError: 'some_key'
+print(d_1.get("some_key")) # None
+
+d_2 = {
+    'name':'John',
+    'surname':'Doe',
+}
