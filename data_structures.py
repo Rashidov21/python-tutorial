@@ -195,20 +195,51 @@ the circulation. - Moby Dick'''
 
 # dict - lug'at , elementlariga indeks orqali emas balki kalit so'z orqali murojaat qilinadigan elementlar to'plami
 
-d_1 = dict(a=10,b=20)
+# d_1 = dict(a=10,b=20)
 
-print(d_1.keys()) # dict keys dict_keys(['a', 'b'])
-print(d_1.items()) # dict items tuple object dict_items([('a', 10), ('b', 20)])
-print(d_1.values()) # dict values  dict_values([10, 20])
+# print(d_1.keys()) # dict keys dict_keys(['a', 'b'])
+# print(d_1.items()) # dict items tuple object dict_items([('a', 10), ('b', 20)])
+# print(d_1.values()) # dict values  dict_values([10, 20])
  
-print(d_1["a"]) # 10
-print(d_1["b"]) # 20
-print(d_1["a"] + d_1["b"]) # 30
+# print(d_1["a"]) # 10
+# print(d_1["b"]) # 20
+# print(d_1["a"] + d_1["b"]) # 30
 
-# print(d_1["some_key"]) # KeyError: 'some_key'
-print(d_1.get("some_key")) # None
+# # print(d_1["some_key"]) # KeyError: 'some_key'
+# print(d_1.get("some_key")) # None
 
-d_2 = {
-    'name':'John',
-    'surname':'Doe',
-}
+# d_2 = {
+#     'name':'John',
+#     'surname':'Doe',
+# }
+# d = dict(a=10,b=20)
+
+# print('a' in d) # True - kalitni mavjudlikga tekshirish
+# print(20 not in d) # True
+
+# d.pop("a")
+# print(d) # {'b': 20}
+# d.popitem() 
+# print(d) # 
+# d.clear()
+# print(d) # {}
+
+# l = [0,False]
+# print(any(l)) # birorta true bormi ?
+# print(all(l)) # hammasi true mi ?
+
+# d = dict(a=10,b=20)
+# d.update({'c':30})
+# d.update(d=40)
+# print(d)  # {'a': 10, 'b': 20, 'c': 30, 'd': 40}
+# d = {}
+# d.get() - kalit orqali qiymatni olish
+# d.pop() - kalit orqali o'chirish 
+# d.setdefault() - kalit orqali qiymat qoshish yoki olish
+# d.items() -  dict elementlari kortej korinishida
+# d.keys() -   dict kalitlari 
+# d.values() - dict qiymatlari
+# d.fromkeys() -  dict kalitlari
+# d.clear() -  dict ni tozalash
+# d.popitem() - tasodify elementni o'chirish
+# d.copy() -  dict ni nusxalash
