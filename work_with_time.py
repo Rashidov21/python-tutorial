@@ -47,5 +47,26 @@ locale.setlocale(locale.LC_ALL, "UZ_uz")
 # print(time.strftime("%x")) # >> 09/26/23
 # print(time.strftime("%X")) # >> 17:20:55
 
-text = "Bugun %d - %B , %Y - yil %A.  Soat %H dan %M minut o'tdi."
-print(time.strftime(text)) # Bugun 26 - Sentabr , 2023 - yil seshanba.  Soat 17 dan 24 minut o'tdi.
+# text = "Bugun %d - %B , %Y - yil %A.  Soat %H dan %M minut o'tdi."
+# print(time.strftime(text)) # Bugun 26 - Sentabr , 2023 - yil seshanba.  Soat 17 dan 24 minut o'tdi.
+
+
+
+
+# for i in range(100):
+# 	print(i)
+# 	time.sleep(1) # sleep kodni toxtatish , int - sekundlarni qabul qiladi
+
+# timedelta - vaqt oraligini hisoblash imkoni
+# dt1 = datetime.timedelta(weeks=2,days=4,hours=12,minutes=30,seconds=12)
+# dt2 = datetime.timedelta(weeks=1,days=1,hours=5,minutes=40,seconds=10)
+# print(dt1 - dt2) # vaqt oraligi : 10 days, 6:50:02
+
+# # date - sana obyekti 
+# print(datetime.date(2023,10,3)) # 2023-10-03
+
+# # calendar - kalendar obyekti
+# c = calendar.TextCalendar() # oddiy matn kalendar
+# # c = calendar.HTMLCalendar() # html teglari orqali hosil qilingan kalendar
+# print(c.formatyear(2023)) # yil kalendari
+# print(c.formatmonth(2023,10)) # oy kalendari
