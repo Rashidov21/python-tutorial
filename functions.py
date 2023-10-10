@@ -64,21 +64,31 @@ import datetime
 #         amount += i
 #     return amount
 
+# def fub(**args):
+#     if len(args)<2:
+#         return args
+#     else:
+#         return args[-2:]
+# print(fub(3,45,32,2))
+
 # print(summa(1,2,3,4,5)) # 15
 
 # def kwargs_summa(**kwargs):
-#     print(kwargs) # {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5} - dict values
+#     print(kwargs) # {'a': 1, 'b': 2, 'c': 3, 'd': 14, 'e': 5} - dict values
 #     amount = 0
 #     for i in kwargs.values():
 #          amount += i
 #     return amount
 # print(kwargs_summa(a=1,b=2,c=3,d=4,e=5)) # 15
+# def ten(**kwargs):
+#     for k,v in kwargs.items():
+#         if v>10:
+#             print(k)
+# ten(a=1,b=13,c=16)
+def super_func(*args, **kwargs):
+    return [k for k,v in kwargs.items() if v in args]
 
-# def super_func(*args, **kwargs):
-#     print(args) # (1, 2)
-#     print(kwargs) # {'number1': 3, 'number2': 4}
-
-# super_func(1,2,number1=3,number2=4)
+# super_func(1,2,number1=3,number2=2)
 
 # # anonim function
 # summa = lambda x: x + 1
@@ -130,3 +140,44 @@ import datetime
 # xx−xxx−xx−xx korinishida userdan telefon raqam qabul qiluvchi dastur tuzing agar user xato kiritgan bolsa ularni to'g'irlab huddi shu holatda ekranga chiqaring
 # input: 998999005
 # output:99-899-90-05
+
+
+
+# arr = [1,2,4,5,9,7,8,3,21,5,6,4,89]
+# # print(filter(lambda x:x>50, arr)) # <filter object at 0x00000265FA203C70>
+# print(list(filter(lambda x:x>20, arr))) # [21, 89]
+
+# zip - berilgan ikita ketma-ketlikdan har bir takrorlanishda bittadan element olib tuple qaytardi
+
+# letter = "abcde"
+# nums = [1,2,3,4]
+# print(zip(letter,nums)) # <zip object at 0x00000227160CE180>
+# print(list(zip(letter,nums))) # [('a', 1), ('b', 2), ('c', 3), ('d', 4)]
+
+# print([x for x in range(10) if x > 5]) # [6, 7, 8, 9]
+
+# lorem = "lorem ipsum dolor amet"
+# numbers = [1,2,3,4]
+
+# d = {k:z for k,z in zip(lorem.split(' '),numbers)}
+# print(d) # {'lorem': 1, 'ipsum': 2, 'dolor': 3, 'amet': 4}
+
+# map - berilgan ketma-ketlik elementlari uchun berilgan funksiyani qollaydi 
+# lorem = "lorem ipsum dolor amet"
+# print(list(map(lambda x: x.upper(), lorem.split(" ")))) # ['LOREM', 'IPSUM', 'DOLOR', 'AMET']
+text =  """
+An asterisk pyramid may not be the most useful example, but it surely tests your understanding of loops and maths in Python.
+
+To create a pyramid, you need to start with 1 asterisk. On the next line you have 3, then 5,7, and so on. In other words, the number of asterisks is 2*i + 1, where i is the row number (or the height) of the pyramid.
+
+Now you got the number of asterisks.
+
+Then you need to know how many spaces you need to the left of the asterisks to make it look like a pyramid.
+
+In the first row, the number of spaces is the same as the height of the pyramid. Then on the second row, it is one less. On the third one less again. So you need to add one less space for each row of asterisks. In other words, the number of spaces is h-i-1, where h is the pyramid height and i is the row number.
+"""
+
+# task 1 
+# userdan harf qabul qiling va shu harf bilan boshlanadigan barcha sozlarni text o'zgaruvchisi ichidan topib list korinishida ekranga chiqaring
+s=input('>>>')
+print([item for item in text.lower().split(' ') if item[0]==s.lower()])
