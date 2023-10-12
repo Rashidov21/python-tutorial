@@ -165,19 +165,94 @@ def super_func(*args, **kwargs):
 # map - berilgan ketma-ketlik elementlari uchun berilgan funksiyani qollaydi 
 # lorem = "lorem ipsum dolor amet"
 # print(list(map(lambda x: x.upper(), lorem.split(" ")))) # ['LOREM', 'IPSUM', 'DOLOR', 'AMET']
-text =  """
-An asterisk pyramid may not be the most useful example, but it surely tests your understanding of loops and maths in Python.
+# text =  """
+# An asterisk pyramid may not be the most useful example, but it surely tests your understanding of loops and maths in Python.
 
-To create a pyramid, you need to start with 1 asterisk. On the next line you have 3, then 5,7, and so on. In other words, the number of asterisks is 2*i + 1, where i is the row number (or the height) of the pyramid.
+# To create a pyramid, you need to start with 1 asterisk. On the next line you have 3, then 5,7, and so on. In other words, the number of asterisks is 2*i + 1, where i is the row number (or the height) of the pyramid.
 
-Now you got the number of asterisks.
+# Now you got the number of asterisks.
 
-Then you need to know how many spaces you need to the left of the asterisks to make it look like a pyramid.
+# Then you need to know how many spaces you need to the left of the asterisks to make it look like a pyramid.
 
-In the first row, the number of spaces is the same as the height of the pyramid. Then on the second row, it is one less. On the third one less again. So you need to add one less space for each row of asterisks. In other words, the number of spaces is h-i-1, where h is the pyramid height and i is the row number.
-"""
+# In the first row, the number of spaces is the same as the height of the pyramid. Then on the second row, it is one less. On the third one less again. So you need to add one less space for each row of asterisks. In other words, the number of spaces is h-i-1, where h is the pyramid height and i is the row number.
+# """
 
 # task 1 
 # userdan harf qabul qiling va shu harf bilan boshlanadigan barcha sozlarni text o'zgaruvchisi ichidan topib list korinishida ekranga chiqaring
-s=input('>>>')
-print([item for item in text.lower().split(' ') if item[0]==s.lower()])
+# s=input('>>>')
+# print([item for item in text.lower().split(' ') if item[0]==s.lower()])
+
+
+# def func(x, у):
+#     for i in range(1, x+1): 
+#         yield i ** у
+
+# print(func(5,2))  # <generator object func at 0x0000016D68913580>
+# print(list(func(5,2))) # [1, 4, 9, 16, 25]
+
+
+
+# def wrapper(func):
+#     print("func - ishga tushdi") #
+#     return func
+
+# @wrapper
+# def main():
+#     print("main ishga tushdi !")
+    
+
+# client = {
+#     'username':'admin',
+#     'password':'1234'
+# }
+
+# def auth(user):
+#     def check_user(func):
+#         if user.get("username") == 'admin' and user.get("password") == '1234':
+#             return func
+#         else:
+#             print("Access danied!")
+#     return check_user
+        
+# @auth(client)
+# def profile():
+#     print("Welcome !")
+
+# @auth(client) 
+# def shop():
+#     print("Sale !")
+    
+# profile()  
+# shop()  
+
+
+# recursion 
+
+# def minus_one(number):
+#     print(number)
+#     if number < 0:
+#         return number
+#     else:
+#         return minus_one(number - 1)
+
+# print(minus_one(100)) # RecursionError: maximum recursion depth exceeded
+
+# x = 10 # global
+
+# def main():
+#     x = 5 # local
+#     print(x) # 5   
+# main() # 5
+# print(x) # 10
+
+# task 1
+data = [
+    {"date":(2011,10,11)},
+    {"date":(2005,1,1)},
+    {"date":(2000,12,9)},
+    {"date":(2004,4,19)},
+    {"date":(2003,6,23)},
+    {"date":(2000,7,3)},
+    {"date":(2022,5,13)},
+]
+# calendar modulidan foydalanib ushbu sanalardagi oylarni har birini calendarlarini konsolga chiqaring
