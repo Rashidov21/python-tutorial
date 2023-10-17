@@ -256,3 +256,5 @@ data = [
     {"date":(2022,5,13)},
 ]
 # calendar modulidan foydalanib ushbu sanalardagi oylarni har birini calendarlarini konsolga chiqaring
+
+
