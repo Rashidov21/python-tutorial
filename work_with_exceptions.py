@@ -29,6 +29,6 @@
 #     print("To'g'ri !")
 
 # task 1 
-data = "1st 2 3-chi 5 ta 4ta 8dona 9 marta"
+# data = "1st 2 3-chi 5 ta 4ta 8dona 9 marta"
 # quyidagi matnni probellar orqali ajratib , ajratilgan sonlarni butun songa aylantirib massivga yozing
 # agar ajratilgan sonni butun songa aylantirish iloji bo'lmasa try except dan foydalanib xatolikni chetlab o'ting va keyingi songa o'tib dasturni davom ettiring
