@@ -81,3 +81,4 @@
     # task 1.2
     # Eng kop ishtirok etgan sozni 'baqlajon' so'ziga almashtiring
     
+text = """"""
