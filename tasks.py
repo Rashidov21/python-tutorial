@@ -81,4 +81,38 @@
     # task 1.2
     # Eng kop ishtirok etgan sozni 'baqlajon' so'ziga almashtiring
     
-text = """"""
+text = """
+Dasturlashning mohiyati nimada?
+Dasturlash nima python uchun ishlatiladi u nimaga kerak?
+Kompyuter python bilan qanday muomila qilish python kerak ?
+Dasturlash uchun python nimalar kerak ?
+Dasturlash python atrofimizda.
+"""
+text_arr = [t.replace("\n", " ").replace("?","").replace(" ", "") for t in text.split(" ")]
+print(text_arr)
+data = []
+for i,v in enumerate(text_arr):
+    temp = {
+        "text":v,
+        "index":i,
+        "count":text_arr.count(v)
+    }
+    data.append(temp)
+
+data.sort(key=lambda x:x["count"], reverse=True)
+print(data[0].get("text"))
+print(data[0].get("count"))
+
+
+# data = []
+# for t in text_arr:
+#     data.append((t,text_arr.index(t)))
+
+# for text_data in data:
+#     for i in  range(len(data)-1):
+#         # print(text_data[0])
+#         # print(data[i][0])
+#         if text_data[0] == data[i][0]: 
+#             temp = list(text_data)
+#             temp.append()
+# print(data)
