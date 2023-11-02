@@ -81,27 +81,27 @@
     # task 1.2
     # Eng kop ishtirok etgan sozni 'baqlajon' so'ziga almashtiring
     
-text = """
-Dasturlashning mohiyati nimada?
-Dasturlash nima python uchun ishlatiladi u nimaga kerak?
-Kompyuter python bilan qanday muomila qilish python kerak ?
-Dasturlash uchun python nimalar kerak ?
-Dasturlash python atrofimizda.
-"""
-text_arr = [t.replace("\n", " ").replace("?","").replace(" ", "") for t in text.split(" ")]
-print(text_arr)
-data = []
-for i,v in enumerate(text_arr):
-    temp = {
-        "text":v,
-        "index":i,
-        "count":text_arr.count(v)
-    }
-    data.append(temp)
+# text = """
+# Dasturlashning mohiyati nimada?
+# Dasturlash nima python uchun ishlatiladi u nimaga kerak?
+# Kompyuter python bilan qanday muomila qilish python kerak ?
+# Dasturlash uchun python nimalar kerak ?
+# Dasturlash python atrofimizda.
+# """
+# text_arr = [t.replace("\n", " ").replace("?","").replace(" ", "") for t in text.split(" ")]
+# print(text_arr)
+# data = []
+# for i,v in enumerate(text_arr):
+#     temp = {
+#         "text":v,
+#         "index":i,
+#         "count":text_arr.count(v)
+#     }
+#     data.append(temp)
 
-data.sort(key=lambda x:x["count"], reverse=True)
-print(data[0].get("text"))
-print(data[0].get("count"))
+# data.sort(key=lambda x:x["count"], reverse=True)
+# print(data[0].get("text"))
+# print(data[0].get("count"))
 
 
 # data = []
