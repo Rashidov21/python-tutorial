@@ -1,13 +1,13 @@
+import asyncio
+import logging
+logging.basicConfig(level=logging.INFO)
+from main.bot import dp,bot
 
 
+async def run_bot():
+    await dp.start_polling(bot)
 
-# echo_bot
-#     __init__.py
-#     config 
-#         __init__.py
-#         config.py
-#         token.py
-#     main 
-#         __init__.py
-#         bot.py
-#     run.py
+if __name__ == "__main__":
+    asyncio.run(run_bot())
+
+
