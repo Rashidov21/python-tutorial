@@ -14,18 +14,18 @@ sql1 = """CREATE TABLE students(
     );"""
     
 fake = Faker()    
-# try:
-#     sql4 = """DELETE FROM students WHERE name='Danielle Ford'"""
-#     cur.execute(sql4)
-# except sqlite3.DatabaseError as er:
-#     print(er)
-# else:
-#     # time.sleep(1)
-#     print("Success !")
-#     con.commit() 
+try:
+    sql4 = """DELETE FROM students WHERE name='Danielle Ford'"""
+    cur.execute(sql4)
+except sqlite3.DatabaseError as er:
+    print(er)
+else:
+    # time.sleep(1)
+    print("Success !")
+    con.commit() 
 
 # for i in range(10):
-    
+    drfuj 
 #     sql2 = f"""INSERT INTO students(name,age,gender,point)
 #     VALUES('{fake.name()}',{fake.random_int(6,19)},'male',{fake.random_int(30,100)});"""
 #     # hammasini olish
