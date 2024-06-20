@@ -121,6 +121,8 @@
 # print(not True) # False
 # print(not False) # True
 
+# print(1 and 0 or 2 > 3 and 1 < 8) # False
+
 # x = 0
 # if not x:
 #     print("OK")
