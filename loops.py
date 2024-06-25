@@ -48,3 +48,32 @@
 #     print(i)
 # else:
 #     print("takrorlanish tugadi")
+
+# while 
+# n = 10
+
+# while 0 < n:
+#     n -= 1 # -= > ayrib tenglash
+#     print(n)
+# i = 0
+# while i < 10:
+#     i += 1
+#     if i == 5:
+#         break # break - majburan tsiklni to'xtatish
+#     print(i)
+# i = 0
+# while i < 10:
+#     print(i)
+#     i += 1
+# else:
+#     print("takrorlanishlar tugaganidan so'ng ishlaydigan kod")
+
+# while True:
+#     num = int(input("Son kiriting :"))
+#     if num == 7:
+#         print("Topdiz")
+#         break
+#     else:
+#         print("Notog'ri")
+#         continue # keyin takrorlanishga o'tish
+#     print("koooo")
