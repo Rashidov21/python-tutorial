@@ -148,3 +148,28 @@
 # print(any(arr)) # False
 # arr = [1, False,"",[]]
 # print(any(arr)) # True
+
+# arr = [0,4,5,6,3,4,1,5,6]
+# # arr.sort()
+# # arr.sort(reverse=True)
+# print(arr) # [6, 6, 5, 5, 4, 4, 3, 1, 0]
+# arr = ["Print","PRINT","print"]
+# arr.sort(key=str.upper, reverse=True)
+# print(arr) # 
+
+# sorted - ketma-ketlik elemetnlarini saralash uchun alohida metod 
+# arr = [1,4,5,7,8,9,6,3,2,45,65]
+# print(sorted(arr)) #[1, 2, 3, 4, 5, 6, 7, 8, 9, 45, 65]
+# print(sorted(arr, reverse=True)) #[65, 45, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+# arr = ["Print","PRINT","print"]
+# print(sorted(arr,key=str.lower))
+ 
+ 
+# l = list(range(10))
+
+# tuple - 
+# t = tuple("python")
+# t = ()
+# print(type(t)) # <class 'tuple'>
+# print(dir(t)) # 
