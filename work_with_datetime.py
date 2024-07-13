@@ -56,3 +56,7 @@ now = datetime.datetime.now() # joriy sana va vaqt ni qaytaradi
 # userdan 3 son qabul qiling 1-son va 2 son orasidagi tasodify sonlardan iborat 3 son miqdorida massiv hosil qiling 
 # input: 5,60,500
 # output : [5, 6, 24, 28, 55]
+
+# task 3 
+# datetime moduli va random orqali 10 ta turli tasodify sana va vaqtlarni  ekranga chiqaring
+
