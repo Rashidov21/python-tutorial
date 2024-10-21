@@ -78,6 +78,7 @@
 # print(list(map(lambda x: x**2, arr))) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]    
 
 # filter - berilgan ketmalik elementlarini berilgan funksiya natijasiga kora filterlaydi
-print(list(filter(lambda x:x>2,[1,2,3,4]))) # [3, 4]
+# print(list(filter(lambda x:x>2,[1,2,3,4]))) # [3, 4]
 # map - berilgan ketmalik elementlariga berilgan funksiyani har biri uchun qollaydi
-print(list(map(lambda x:x**2,[1,2,3]))) # [1, 4, 9]
+# print(list(map(lambda x:x**2,[1,2,3]))) # [1, 4, 9]
+
