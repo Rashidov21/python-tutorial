@@ -82,3 +82,68 @@
 # map - berilgan ketmalik elementlariga berilgan funksiyani har biri uchun qollaydi
 # print(list(map(lambda x:x**2,[1,2,3]))) # [1, 4, 9]
 
+# task 1
+# Sonlar ro‘yxatidan juft sonlarni kvadratga oshirib, natijani qaytaring.
+# numbers = [1, 2, 3, 4, 5, 6]
+# Natija: [4, 16, 36]
+
+# task 2 
+# Berilgan ro‘yxatdagi barcha so‘zlarni katta harflarga o‘giring.
+# words = ['hello', 'world', 'python']
+# Natija: ['HELLO', 'WORLD', 'PYTHON']
+
+# task 3 
+# Ro‘yxatdagi faqat musbat sonlarni oling va ularning kubini hisoblang.
+# numbers = [-3, 2, 4, -1, 5]
+# Natija: [8, 64, 125]
+
+# task 4 
+# Ro'yxatdagi sonlarni juft bo'lsa ikkiga ko‘paytirib, toq bo'lsa chiqarib tashlang.
+# numbers = [2, 3, 4, 5, 6]
+# Natija: [4, 8, 12]
+
+# task 5
+# Ro'yxatdan barcha "Palindrom" bo'lgan sonlarni qoldiring.
+# numbers = [121, 202, 345, 444, 567]
+# Natija: [121, 202, 444] 
+
+# task 6 
+# Listdagi sozlarni belgilar soni boyicha saralang
+# words = ['python', 'algorithm', 'map', 'function']
+# Natija: ['map','python','function','algorithm',]
+
+# def hello(func):
+#     def inner():
+#         print("Hello ")
+#         func()
+#     return inner
+
+# def name():
+#     print("Alice")
+    
+# obj = hello(name)
+# obj()
+
+# Dekoratorlar - bu bir funksiyani qabul qilib uni ishlashini o'zgartiruvchi boshqa bir funksiyalar hisoblanadi
+# def decor(func):
+#     def inner(*args):
+#         if func(*args):
+#             print("True")
+#         else:
+#             print("False")
+#     return inner
+
+# @decor 
+# def main(a,b):
+#     if a > b:
+#         return True
+#     else:
+#         return False
+        
+# main(4,2)
+
+# @decor
+# def simple(x,y):
+#     print(x + y)
+# simple(1,2)
+
