@@ -33,13 +33,14 @@
 
 # *args - arguments 
 # def main(*args):
-    # print(type(args)) #<class 'tuple'>
-    # print(dir(args))
-    # for i in args:
-    #     print(i)
-    # return sum(args)
+#     print(type(args)) #<class 'tuple'>
+#     print(dir(args))
+#     for i in args:
+#         print(i)
+#     return sum(args)
 
-
+# x,*y = 1,2,3,4,5
+# print(x,y)
 # print(main(1,2,3,4,5)) # 15
 
 # def main(*args):
@@ -50,8 +51,8 @@
 
 # **kwargs - keyword arguments
 # def main(**kwargs):
-    # print(type(kwargs)) # <class 'dict'>
-    # print(dir(kwargs))
+#     print(type(kwargs)) # <class 'dict'>
+#     print(dir(kwargs))
 #     for i in kwargs:
 #         print(i)
 
@@ -75,3 +76,8 @@
 
 # map 
 # print(list(map(lambda x: x**2, arr))) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]    
+
+# filter - berilgan ketmalik elementlarini berilgan funksiya natijasiga kora filterlaydi
+print(list(filter(lambda x:x>2,[1,2,3,4]))) # [3, 4]
+# map - berilgan ketmalik elementlariga berilgan funksiyani har biri uchun qollaydi
+print(list(map(lambda x:x**2,[1,2,3]))) # [1, 4, 9]
