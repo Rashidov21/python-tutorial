@@ -147,3 +147,6 @@
 #     print(x + y)
 # simple(1,2)
 
+
+# numbers = [1, 2, 3, 4, 5, 6]
+# print(list(map(lambda x: x**2, filter(lambda x: x % 2 == 0, numbers))))
