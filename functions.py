@@ -170,4 +170,6 @@ Papka -
 # .jpg - Rasm 
 # .png - Fonsiz rasm 
 
-Win + R > diskmgmt.msc
+# Win + R > diskmgmt.msc
+# Win + R > %temp% > Enterni bosib ochilgan papka ichidagi hamma narsani o'chirib tashesiz
+# CTRL + Alt + Del 
