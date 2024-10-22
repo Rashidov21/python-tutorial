@@ -154,6 +154,7 @@
 
 
 # Fayl - Kompyuter xotirasida malum bir katakchalarni bir nom ostiga biriktirish
+Papka - 
 # Fayl formatlari ? fayllarni turlari 
 
 # ozodbek.mp3 - audio 
@@ -161,10 +162,12 @@
 # .exe - Windows uchun dastur
 # .zip - Arxiv
 # .txt - Matn
-# .pdf - 
-# .doc 
-# .xls
-# .psd
-# .ai
-# .jpg
-# .png 
+# .pdf - Matn,Rasm aralash formatlari
+# .doc - Matn hujjatlar
+# .xls - Excel
+# .psd - Photoshop
+# .ai - Illustrator
+# .jpg - Rasm 
+# .png - Fonsiz rasm 
+
+Win + R > diskmgmt.msc
