@@ -150,3 +150,21 @@
 
 # numbers = [1, 2, 3, 4, 5, 6]
 # print(list(map(lambda x: x**2, filter(lambda x: x % 2 == 0, numbers))))
+
+
+
+# Fayl - Kompyuter xotirasida malum bir katakchalarni bir nom ostiga biriktirish
+# Fayl formatlari ? fayllarni turlari 
+
+# ozodbek.mp3 - audio 
+
+# .exe - Windows uchun dastur
+# .zip - Arxiv
+# .txt - Matn
+# .pdf - 
+# .doc 
+# .xls
+# .psd
+# .ai
+# .jpg
+# .png 
