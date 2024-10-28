@@ -154,7 +154,7 @@
 
 
 # Fayl - Kompyuter xotirasida malum bir katakchalarni bir nom ostiga biriktirish
-Papka - 
+# Papka - 
 # Fayl formatlari ? fayllarni turlari 
 
 # ozodbek.mp3 - audio 
@@ -173,3 +173,15 @@ Papka -
 # Win + R > diskmgmt.msc
 # Win + R > %temp% > Enterni bosib ochilgan papka ichidagi hamma narsani o'chirib tashesiz
 # CTRL + Alt + Del 
+
+# HTTP/HTTPS (Hypertext Transfer Protocol/Secure) – veb-sahifalarni ko‘rish uchun ishlatiladi.
+# TCP/IP (Transmission Control Protocol/Internet Protocol) – ma'lumotlarni paketlarga bo'lib yuborish.
+# UDP (User Datagram Protocol) – tezkor, ammo kam ishonchli ma'lumot uzatish.
+# FTP (File Transfer Protocol) – fayllarni uzatish.
+# SMTP (Simple Mail Transfer Protocol) – elektron pochta yuborish.
+# DNS (Domain Name System) – domenlarni IP manzillarga o‘zgartirish.
+# POP3/IMAP – elektron pochta olish.
+# SSH (Secure Shell) – xavfsiz masofaviy boshqaruv.
+
+print("Hello world")
+# console.log("hello world")
