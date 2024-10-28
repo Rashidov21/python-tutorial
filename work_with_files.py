@@ -1,40 +1,70 @@
 import os
 import json
 import telebot
-# Bot tokenini kiriting
-API_TOKEN = ""
-bot = telebot.TeleBot(API_TOKEN)
-# /start komandasi uchun handler
-@bot.message_handler(commands=['start'])
-def send_welcome(message):
-    bot.reply_to(message, "Salom! Men sizning Telegram botingizman.")
 
+API_TOKEN = "6145009119:AAHU4Jz3rws0InM66eqXt0BQ_M3pUO3doPg"
+bot = telebot.TeleBot(API_TOKEN)
+
+# Foydalanuvchilar ro'yxatini saqlash uchun
 users = []
 
-# Faylni tekshirish va mavjud bo'lsa, o'qish
+# Faylni o'qish yoki agar bo'sh bo'lsa, bo'sh massivga almashtirish
 if os.path.exists("bot_users.json"):
-    with open("bot_users.json", "r") as f:
-        users = json.load(f)
+    try:
+        with open("bot_users.json", "r") as f:
+            users = json.load(f)  # JSON o'qish
+    except json.JSONDecodeError:
+        # Agar fayl bo‘sh yoki yaroqsiz bo‘lsa, bo‘sh massivni yozib qo‘yamiz
+        users = []
+        with open("bot_users.json", "w") as f:
+            json.dump(users, f, ensure_ascii=False, indent=4)
+else:
+    # Fayl mavjud bo'lmasa, bo'sh massiv yozib yangi fayl yaratamiz
+    with open("bot_users.json", "w") as f:
+        json.dump(users, f, ensure_ascii=False, indent=4)
+
+def find_user_by_id(user_id):
+    for user in users:
+        if user["id"] == user_id:
+            return user
+    return None
+
+@bot.message_handler(commands=['start'])
+def send_welcome(message):
+    user = find_user_by_id(message.from_user.id)
+    if user:
+        bot.reply_to(message, f"Salom, {user['first_name']}! Siz allaqachon ro'yxatdan o'tgansiz.")
+    else:
+        bot.reply_to(message, "Salom! Ro'yxatdan o'tish uchun ismingizni kiriting.")
 
 @bot.message_handler(func=lambda message: True)
-def echo_all(message):
-    user = {
-        "id": message.from_user.id,
-        "first_name": message.from_user.first_name,
-        "last_name": message.from_user.last_name,
-        "username": message.from_user.username
-    }
-    
-    # Foydalanuvchini ro'yxatga qo'shish
-    if user["id"] not in [u["id"] for u in users]:
-        users.append(user)
-        with open("bot_users.json", "w") as f:
-            json.dump(users, f)
-        bot.reply_to(message, "Siz muvaffaqiyatli ro'yxatdan o'tdingiz!")
+def register_user(message):
+    user = find_user_by_id(message.from_user.id)
+    if user:
+        bot.reply_to(message, f"Siz allaqachon ro'yxatdan o'tgansiz, {user['first_name']}!")
     else:
-        bot.reply_to(message, "Siz oldin yozgansiz!")
+        new_user = {
+            "id": message.from_user.id,
+            "first_name": message.from_user.first_name,
+            "last_name": message.from_user.last_name,
+            "username": message.from_user.username
+        }
+        users.append(new_user)
+        with open("bot_users.json", "w") as f:
+            json.dump(users, f, ensure_ascii=False, indent=4)
+        bot.reply_to(message, f"Xush kelibsiz, {message.text}! Siz muvaffaqiyatli ro'yxatdan o'tdingiz.")
 
-    bot.reply_to(message, message.text)
+def bulk_message():
 
-# Botni ishga tushirish
+    msg = """<b>Guido van Rossum</b><i>
+        Guido van Rossum is a Dutch programmer best known as the creator of the Python programming language, first released in 1991. 
+        </i>"""
+    with open("bot_users.json", "r") as f:
+        users = json.load(f) 
+        for user in users:
+            bot.send_photo()
+            bot.send_message(user["id"], "https://avatars.mds.yandex.net/i?id=76028d68c11943fe250f2e4ee59d6d92_l-9231415-images-thumbs&n=13")
+            bot.send_message(user["id"], msg, parse_mode="HTML")
+bulk_message()
+
 bot.polling()
