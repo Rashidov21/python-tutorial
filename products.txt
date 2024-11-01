@@ -1,0 +1,3 @@
+Olma : 5000
+Anor : 3000
+Tarvuz : 4000

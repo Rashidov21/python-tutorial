@@ -47,3 +47,7 @@
     
 # print(" ".join(list(reversed(open("input.txt").read().split(" ")))))
 
+# Vektor grafika 
+# Rastr grafika 
+# Dizayn
+# UI/UX 

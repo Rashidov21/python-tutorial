@@ -1,0 +1,6 @@
+anor : 2
+behi : 1
+gilos : 1
+olcha : 4
+olma : 2
+tarvuz : 1
