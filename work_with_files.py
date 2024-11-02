@@ -89,16 +89,45 @@
 
 # output:
 # Natija: 4000 (masalan)
-try:
-    with open("products.txt", "r") as file:
-        summ = 0
-        data = file.readlines()
-        for i in data:
-            summ += int(i.split(":")[1])
-            print(summ)
-        print("Ortacha summa = ", summ / len(data))
-except Exception as e:
-    print(e)
+# try:
+#     with open("products.txt", "r") as file:
+#         summ = 0
+#         data = file.readlines()
+#         for i in data:
+#             summ += int(i.split(":")[1])
+#             print(summ)
+#         print("Ortacha summa = ", summ / len(data))
+# except Exception as e:
+#     print(e)
 
+#  Masala: uchrashuvlar.txt faylida har bir qatorga bir kunga bir uchrashuv va uning vaqti yozilgan (masalan, 2023-10-25, 14:00, Muhim yig‘ilish). Bugungi kunga tegishli barcha uchrashuvlarni bugun.txt fayliga yozing.
+#    - Natija: bugun.txt faylida bugungi kun uchrashuvlari.
 
+# input :2023-10-25, 14:00, Muhim yig‘ilish
+# from datetime import datetime 
+# # joriy sanani olish
+# current_date = datetime.now().date()
+# try:
+#     with open("input.txt","r") as file:
+#         dates = file.readlines()
+#         for note in dates:
+#             line = note.split(",")[0]
+#             if len(line.split("-")) == 3:
+#                 year = int(line.split("-")[0])
+#                 month = int(line.split("-")[1])
+#                 day = int(line.split("-")[2])
+#                 note_date = datetime(year, month, day).date()
+          
+#                 print("Currunt date = ", current_date)
+#                 print("Note date = ", note_date)
+#             else:
+#                 print("False")
+#                 continue
+# except Exception as e:
+#     print(e)
 
+import json 
+
+with open("cities.json", "r") as file:
+    cities = json.load(file)
+    print([city["name"] for city in list(filter(lambda x: x["population"] > 500000, cities))])

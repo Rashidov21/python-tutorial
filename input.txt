@@ -1,20 +1,9 @@
-Win + E - Fayl menejeri
-CTRL + Shift + N - yangi papka
-Win + L - Lock qulflash 
-Win + D - Desktop hamma oynani yopib ish stoliga qaytish
-Win + I - Settings sozlamalar 
-Win + . - Emojilar 
-Win + S - Search qidiruv 
-Win + X - Quick settings tezkor sozlamalar
-Win + P - Monitorni boshqarish 
-Win + R - Run > winword > Enter
-Win + R - Run > explorer > Fayl menejeri
-Win + R - Run > cmd > Komandnaya stroka
-Win + R - Run > diskmgmt.msc > Disk menejeri
-Win + R - Run > appwiz.cpl > Ilovalar menejeri`
-Win + G - Game center 
-Win + shift + S - skrenshot
-Win + PRTSC 
-
+2023-11-01, 14:00, Muhim yig'ilish
+2023-11-01, 15:30, Gap
+2023-05-05, 12:40, Futbol
+2023-11-04, 14:00, Muhim yig'ilish
+2023-11-02, 14:00, Uchrashuv
+2023-10-09, 16:00, Muhim yig'ilish
+2023-11-01, 11:20, Nimadur
 
 
