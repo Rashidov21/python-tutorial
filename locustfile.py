@@ -7,6 +7,4 @@ class MyUser(HttpUser):
     def test_homepage(self):
         self.client.get("/")  # Asosiy URLga GET so‘rov yuborish
 
-    # @task
-    # def test_about_page(self):
-    #     self.client.get("/about")  # /about URLga GET so‘rov yuborish
+

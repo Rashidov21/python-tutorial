@@ -126,8 +126,18 @@
 # except Exception as e:
 #     print(e)
 
-import json 
+# import json 
 
-with open("cities.json", "r") as file:
-    cities = json.load(file)
-    print([city["name"] for city in list(filter(lambda x: x["population"] > 500000, cities))])
+# with open("cities.json", "r") as file:
+#     cities = json.load(file)
+#     print([city["name"] for city in list(filter(lambda x: x["population"] > 500000, cities))])
+# import os 
+
+# print(dir(os))
+# print(os.getcwd()) # fayl joriy direktoriyasi 
+# print(os.listdir()) # direktoriya ichidagi narsalar royhati 
+# os.path - direktoriya bilan ishlash uchun 
+# print(os.path.abspath("products.txt")) # fayl uchun toliq manzil
+# s = os.path.abspath("products.txt")
+# print(os.path.dirname(s)) # papka manzili
+# print(os.path)

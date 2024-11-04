@@ -1,9 +1,50 @@
-2023-11-01, 14:00, Muhim yig'ilish
-2023-11-01, 15:30, Gap
-2023-05-05, 12:40, Futbol
-2023-11-04, 14:00, Muhim yig'ilish
-2023-11-02, 14:00, Uchrashuv
-2023-10-09, 16:00, Muhim yig'ilish
-2023-11-01, 11:20, Nimadur
+Fayl - xotira katakchalarini bir nom ostiga biriktirish
+Fayl formati - Faylni turi 
 
+Audio
+    ozodbek.nazarbekov.mp3
+    .mp4a
+    .wmi
+    .midi
+    .waw
+    .ogg
+Text 
+    .txt
+    .doc 
+    .docx 
+    .pdf
+Image 
+    .jpeg
+    .jpg
+    .png
+    .webmp 
+    .bpm 
+    .gif
+    .avif
+App 
+    .exe 
+    .msi 
+    .apk 
+    
+Arxiv
+    .zip
+    .tar
+    .targz
+    .7z
 
+1.Lotin harflar 
+2.Mantiqan tog'ri nom 
+3.Bosh joylar mumkin emas 
+
+Django-Blog-Project
+Django_Blog_Project
+
+Fayl yoli file path:
+E:\Games\[R.G. Mechanics] Battlefield V
+
+Url: Uniform resource locator
+https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ogg_Logo.svg/120px-Ogg_Logo.svg.png
+
+Fayl tizimlari
+FAT16/FAT32
+NTFS
