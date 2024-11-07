@@ -1,50 +1,6 @@
-Fayl - xotira katakchalarini bir nom ostiga biriktirish
-Fayl formati - Faylni turi 
-
-Audio
-    ozodbek.nazarbekov.mp3
-    .mp4a
-    .wmi
-    .midi
-    .waw
-    .ogg
-Text 
-    .txt
-    .doc 
-    .docx 
-    .pdf
-Image 
-    .jpeg
-    .jpg
-    .png
-    .webmp 
-    .bpm 
-    .gif
-    .avif
-App 
-    .exe 
-    .msi 
-    .apk 
-    
-Arxiv
-    .zip
-    .tar
-    .targz
-    .7z
-
-1.Lotin harflar 
-2.Mantiqan tog'ri nom 
-3.Bosh joylar mumkin emas 
-
-Django-Blog-Project
-Django_Blog_Project
-
-Fayl yoli file path:
-E:\Games\[R.G. Mechanics] Battlefield V
-
-Url: Uniform resource locator
-https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ogg_Logo.svg/120px-Ogg_Logo.svg.png
-
-Fayl tizimlari
-FAT16/FAT32
-NTFS
+O'zingizni tanishtiring.
+(Ism-sharif, yosh va ishlaydigan sohangiz)
+IT'ni nima uchun o'rganyapsiz ?
+O'rganayotgan yo'nalishingiz siz uchun qanday yordam bera oladi deb o'ylaysiz ?
+Nima uchun Geeks'ni tanladingiz ?
+Siz bilan tengdosh yoki bitta sohadagilar uchun maslahatlaringiz ?
