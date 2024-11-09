@@ -1,6 +1,7 @@
-O'zingizni tanishtiring.
-(Ism-sharif, yosh va ishlaydigan sohangiz)
-IT'ni nima uchun o'rganyapsiz ?
-O'rganayotgan yo'nalishingiz siz uchun qanday yordam bera oladi deb o'ylaysiz ?
-Nima uchun Geeks'ni tanladingiz ?
-Siz bilan tengdosh yoki bitta sohadagilar uchun maslahatlaringiz ?
+CTRL + H - history 
+CTRL + J - downloads 
+CTRL + F - search 
+CTRL + T - new tab 
+CTRL + W - close tab 
+CTRL + Shift + T - previous tab
+CTRL + Shift + I - inspector
