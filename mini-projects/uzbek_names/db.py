@@ -23,3 +23,16 @@ def get_last_item_id():
     sql = "SELECT id FROM names ORDER BY id DESC LIMIT 1;"
     cur.execute(sql)
     return cur.fetchone()[0]
+
+
+def get_name(name):
+    name = name.capitalize()
+    con = sqlite3.connect("names.db", check_same_thread=False)
+    cur = con.cursor()
+    try:
+        sql = f"SELECT * FROM names WHERE name = '{name}';"
+        cur.execute(sql)
+        return cur.fetchone()
+    except sqlite3.DatabaseError as e:
+        print(e)
+        return "Bunaqa narsa mavjud emas"
