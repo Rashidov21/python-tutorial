@@ -4,7 +4,7 @@ from telebot import types
 from db import get_name
 
 
-API_KEY = "6145009119:AAF0CFhS-zP2DlvjRoqoUT-4RwbmoMKlcew"
+API_KEY = ""
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['start', 'help'])
