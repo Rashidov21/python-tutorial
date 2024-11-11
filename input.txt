@@ -1,7 +1,6 @@
-CTRL + H - history 
-CTRL + J - downloads 
-CTRL + F - search 
-CTRL + T - new tab 
-CTRL + W - close tab 
-CTRL + Shift + T - previous tab
-CTRL + Shift + I - inspector
+Super kompyuter - hisob kitob imkoniyatlari birlashtirilgan bir nechta kompyuter 
+ 
+Suniy intelekt - ongli hisob-kitoblarni amalga oshiruvchi dasturiy ta'minot 
+
+
+
