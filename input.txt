@@ -1,6 +1,21 @@
-Super kompyuter - hisob kitob imkoniyatlari birlashtirilgan bir nechta kompyuter 
- 
-Suniy intelekt - ongli hisob-kitoblarni amalga oshiruvchi dasturiy ta'minot 
+Dizayn - qulaylik !
+
+Tipografiya - matnlar bilan ishlash 
+Kompozitsiya - elementlar joylashtirish
+Ranglar sxemasi - ranglarni tog'ri tanlash 
+
+UX/UI - dizayn 
+UX - user experience
+UI - user interface
 
 
+Graphic design, Motion design, 3d design, Product design, Brand design, Logo design, UI/UX design, etc.
+
+
+Dizayn qilish 
+    Go'ya izlash 
+    Kompozitsiya
+    Ranglar
+    Tipografiya
+    
 
