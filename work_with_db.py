@@ -12,11 +12,5 @@ def get_students():
 
 stdudents = get_students()
 
-for i in list(sorted(stdudents,key=lambda item: item[6], reverse=True))[:3]:
-    print(i)
-for i in list(sorted(stdudents,key=lambda item: item[7], reverse=True))[:3]:
-    print(i)
-for i in list(sorted(stdudents,key=lambda item: item[8], reverse=True))[:3]:
-    print(i)
-    
+
     
