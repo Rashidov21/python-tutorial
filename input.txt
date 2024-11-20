@@ -1,21 +1,4 @@
-Dizayn - qulaylik !
-
-Tipografiya - matnlar bilan ishlash 
-Kompozitsiya - elementlar joylashtirish
-Ranglar sxemasi - ranglarni tog'ri tanlash 
-
-UX/UI - dizayn 
-UX - user experience
-UI - user interface
-
-
-Graphic design, Motion design, 3d design, Product design, Brand design, Logo design, UI/UX design, etc.
-
-
-Dizayn qilish 
-    Go'ya izlash 
-    Kompozitsiya
-    Ranglar
-    Tipografiya
-    
+VS Code - IDE , kod muhariri.
+IDE - integrated development enviroment
+Atom , Sublime Text, Web storm, Pycharm
 
