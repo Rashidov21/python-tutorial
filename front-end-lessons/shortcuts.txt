@@ -1,0 +1,16 @@
+CTRL + X - qatorni o'chirish
+CTRL + B - chap yonbosh oyna on/off
+CTRL + C - nusxa olish
+CTRL + V - nusxani joylash 
+CTRL + X - qirqib olish 
+CTRL + S - saqlash
+CTRL + F - qidiruv
+CTRL + N - yangi fayl
+CTRL + W - faylni yopish
+CTRL + Tab - fayllar bo'ylab yurish
+
+Alt + tepa/past strelkalar
+Alt + shift + tepa/past strelkalar
+CTRL + , - sozlamalar
+Alt + Shift + F - hujjatni formatlash
+CTRL + D - belgilangan matnni hammasini blocklash
