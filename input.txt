@@ -1,4 +1,9 @@
-VS Code - IDE , kod muhariri.
-IDE - integrated development enviroment
-Atom , Sublime Text, Web storm, Pycharm
+Algoritm - maqsadga erishish yolida qilinadigan ishlar ro'yhati
+Kodlash - axborotni bir korinishda boshqa bir korinishga olib otish jarayoni
+Dekodlash - uni aksini qilish
+Dasturlash tili - inson bilan kompyuter o'rtasidagi tarjimon
+    Python,Javascript, C++, Java, C#
+Interpretator - yozgan kodini tekshiruvchi dastur
+Kompilyator - kodni mashina tiliga o'giruvchi dastur
+
 
