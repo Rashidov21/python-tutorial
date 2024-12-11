@@ -52,19 +52,19 @@
 
 # ternary operator  
 # shart bajarilsa qaytadigan natija if <shart> else shart bajarilmasa qaytadigan natija
-# num = int(input("num \n"))
-# result = "Juft" if num % 2 == 0 else "Toq"
-# print(result)
+
+
+print("Juft" if int(input("num \n")) % 2 == 0 else "Toq")
 
 # oddiy if else 
-# season = "yoz"
-# if season == 'yoz':
-#     print("issiq")
-# else:
-#     print("sovuq")
+season = "yoz"
+if season == 'yoz':
+    print("issiq")
+else:
+    print("sovuq")
 # ternar if else 
-# weather = 'issiq' if season == 'yoz' else 'sovuq'
-# print(weather)
+weather = 'issiq' if season == 'yoz' else 'sovuq'
+print(weather)
 # 3-variant 
-# weather = ('issiq', 'sovuq')[season == 'yoz']
-# print(weather)
+weather = ('issiq', 'sovuq')[season == 'yoz']
+print(weather)
