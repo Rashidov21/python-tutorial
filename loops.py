@@ -50,10 +50,9 @@
 #     print("takrorlanish tugadi")
 
 # while 
-# n = 10
-
-# while 0 < n:
-#     n -= 1 # -= > ayrib tenglash
+# n = 0
+# while n < 10:
+#     n += 1 # -= > qo'shib tenglash
 #     print(n)
 # i = 0
 # while i < 10:
@@ -68,12 +67,12 @@
 # else:
 #     print("takrorlanishlar tugaganidan so'ng ishlaydigan kod")
 
-# while True:
-#     num = int(input("Son kiriting :"))
-#     if num == 7:
-#         print("Topdiz")
-#         break
-#     else:
-#         print("Notog'ri")
-#         continue # keyin takrorlanishga o'tish
-#     print("koooo")
+while True:
+    num = int(input("Son kiriting :"))
+    if num == 7:
+        print("Topdiz")
+        break
+    else:
+        print("Notog'ri")
+        continue # keyin takrorlanishga o'tish
+  

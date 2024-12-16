@@ -5,20 +5,21 @@
 # # s = {}
 # print(s)
 
-# s1 = set("abc")
+# s1 = set("aaaaabc")
+# print(s1)
 # s2 = set("def")
 
 # print(s2.union(s1)) # {'f', 'd', 'c', 'e', 'a', 'b'}
 
-# s = set()
-# s.add(1) # yangi narsa qo'shish uchun 
-# s.update([4, 5, 6]) # setni yangilash 
-# s.remove(6) # biror bir elementni ochirish
-# # s.remove(10) # Key error 
-# s.discard(10) # korsatilgan elementni ochiradi agar element bolmasa xatolik bermaydi
-# s.pop() # tasodify elementni ochiradi
-# # s.clear() # setni tozalash
-# print(s) # {1, 4, 5}
+s = set()
+s.add(1) # yangi narsa qo'shish uchun 
+s.update([4, 5, 6]) # setni yangilash 
+s.remove(6) # biror bir elementni ochirish
+# s.remove(10) # Key error 
+s.discard(10) # korsatilgan elementni ochiradi agar element bolmasa xatolik bermaydi
+s.pop() # tasodify elementni ochiradi
+# s.clear() # setni tozalash
+print(s) # {1, 4, 5}
 
 # set1 = {1, 2, 3}
 # set2 = {2, 3, 4}

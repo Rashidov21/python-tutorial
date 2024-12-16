@@ -1,3 +1,10 @@
-Interpretator - kodni xatoliklarga tekshiruvchi dastur 
-Kompilyator - kodni mashina tiliga ogiruvchi dastur
-RAM - Random Access Memory 
+students - nomli django loyiha hosil qiling 
+main - nomli loyihaga app qo'shing
+main.models da Student nomli model hosil qiling 
+Studentlar ma'lumotlarini saqlash uchun : ism,yosh,telefon,manzil
+index.html da barcha studentlarni ma'lumotlarini ul hamda li teglarida chiqaring
+
+Studentni ma'lumotini oldida uni ochirish va yangilash uchun button hosil qiling
+ochirishga bossam huddi shu studentni bazadan id si boyicha ochirib yuboring 
+yangilashga bossam huddi shu studentni alohida sahifada forma orqali yangilash imkonini hosil qiling 
+

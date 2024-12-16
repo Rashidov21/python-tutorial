@@ -1,6 +1,7 @@
 # l = list()
 # l = []
-
+for i in dir(list()):
+    print(i)
 # list - tartibli elmentlar ketma-ketligi (ro'yhat) > RAM da yonma-yon katakchalarda ma'lumot saqlash usuli
 # a = [1,2,3,4,5]
 # for i in a:
