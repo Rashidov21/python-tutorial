@@ -1,10 +1,7 @@
-students - nomli django loyiha hosil qiling 
-main - nomli loyihaga app qo'shing
-main.models da Student nomli model hosil qiling 
-Studentlar ma'lumotlarini saqlash uchun : ism,yosh,telefon,manzil
-index.html da barcha studentlarni ma'lumotlarini ul hamda li teglarida chiqaring
-
-Studentni ma'lumotini oldida uni ochirish va yangilash uchun button hosil qiling
-ochirishga bossam huddi shu studentni bazadan id si boyicha ochirib yuboring 
-yangilashga bossam huddi shu studentni alohida sahifada forma orqali yangilash imkonini hosil qiling 
-
+Win + E - fayl menejeri 
+Win + R > diskmgmt.msc - disk menejeri
+Win + R > %temp% - ichidagi barcha fayllarni ochirib yuborish
+Ctrl + Shift + Esc - task maanger
+Win + R > shutdown /s /t 0
+Win + R > %appdata% - o'rnatilgan dasturlarni papkasini ochish
+Win + R > cmd > diskpart - disk menejerini ochish
