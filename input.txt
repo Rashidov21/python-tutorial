@@ -1,7 +1,17 @@
-Win + E - fayl menejeri 
-Win + R > diskmgmt.msc - disk menejeri
-Win + R > %temp% - ichidagi barcha fayllarni ochirib yuborish
-Ctrl + Shift + Esc - task maanger
-Win + R > shutdown /s /t 0
-Win + R > %appdata% - o'rnatilgan dasturlarni papkasini ochish
-Win + R > cmd > diskpart - disk menejerini ochish
+Internet - butun jahon global tarmog'i 
+Tarmoq - bu ikki yoki undan ortiq kompyuterlarni o'zaro malumot almashish uchun ulash  
+
+Server - tarmoqdagi asosiy qurilma, tarmoq protokollarini belgilaydi 
+protocol - dasturiy ta'minot, ya'ni tarmoqni tashkil qiluvchi dasturlar
+Client - protocolga tayangan holda tarmoq ichida ma'lumotlat almashishadi 
+TCP - transmission control protocol 
+UDP - user datagram protocol
+FTP - file transfer protocol
+SMTP - simple mail transfer protocol
+HTTP - hyper text transfer protocol
+TCP da tarmoqga ulangan har bir qurilma uchun IP manzil beriladi 
+IP - internet protocol > 192.168.1.1 > 4.2 mlrd kombninatsiya 
+Ipv6 - internet protocol version 6 > 2^128 kombinatsiya 
+DNS - domain name system
+qalampir.uz > 5.254.195.94
+
